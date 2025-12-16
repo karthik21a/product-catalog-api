@@ -1,0 +1,32 @@
+{
+  "name": "product-catalog-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for a product catalog system that could power an e-commerce platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cecilia-Banda/product-catalog-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cecilia-Banda/product-catalog-api/issues"
+  },
+  "homepage": "https://github.com/Cecilia-Banda/product-catalog-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^9.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
